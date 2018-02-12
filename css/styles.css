@@ -47,23 +47,9 @@ section h1 {
   font-size: 36px;
 }
 
-#picture-box {
-  margin-top: 40px;
-  display: inline-block;
-  height: 280px;
-  width: 100%;
-  background-image: url('../images/Justin Closeup.png');
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: 370px;
-  border-radius: 20%;
-  background-color: grey;
-}
-
 #home img {
-  background: linear-gradient(rgb(105, 182, 1), rgb(141, 251, 228));
-  height: 250px;
-  width: 300px;
+  height: auto;
+  width: 100%;
   border-radius: 50%;
 }
 
@@ -155,7 +141,8 @@ footer ul li {
     width: 75%;
   }
 
-  #picture-box {
+  #home img {
+    height: auto;
     width: 350px;
   }
 
